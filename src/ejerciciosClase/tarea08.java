@@ -64,7 +64,7 @@ public class tarea08 implements Runnable {
 
         long fin = System.currentTimeMillis();
 
-        long tiempototal = inicio + fin;
+        long tiempototal = fin - inicio;
 
         System.out.println("Terminaron todos, tiempo: " + tiempototal);
 
