@@ -1,3 +1,5 @@
+package ejercicio1;
+
 public class Estadio{
 
 
@@ -49,10 +51,10 @@ public class Estadio{
         }
 
 
-        System.out.println("Torno: " + t.getId() + " Entradas: " + t.getEntradas());
-        System.out.println("Torno: " + t1.getId() + " Entradas: " + t1.getEntradas());
-        System.out.println("Torno: " + t2.getId() + " Entradas: " + t2.getEntradas());
-        System.out.println("Torno: " + t3.getId() + " Entradas: " + t3.getEntradas());
+        System.out.println("ejercicio1.Torno: " + t.getId() + " Entradas: " + t.getEntradas());
+        System.out.println("ejercicio1.Torno: " + t1.getId() + " Entradas: " + t1.getEntradas());
+        System.out.println("ejercicio1.Torno: " + t2.getId() + " Entradas: " + t2.getEntradas());
+        System.out.println("ejercicio1.Torno: " + t3.getId() + " Entradas: " + t3.getEntradas());
 
 
         System.out.println(Torno.getMarcadorTotal());

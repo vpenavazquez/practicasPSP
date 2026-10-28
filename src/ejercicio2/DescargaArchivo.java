@@ -1,3 +1,5 @@
+package ejercicio2;
+
 import java.util.Random;
 
 public class DescargaArchivo implements Runnable {
